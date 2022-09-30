@@ -1,0 +1,195 @@
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+      margin: 0px;
+      padding: 0px;
+}
+
+.wrapper{
+    width: 1000px;
+   margin: 0 auto;
+   position: relative;
+    
+
+
+}
+header{
+    width: 1000px;
+    height: 250px;
+    background: green;
+  position: relative;
+}
+.top_menu{
+  width: 300px;
+  height: 50px;
+
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(17, 16, 16);
+  padding-top: 10px;
+  padding-left: 10px;
+  
+}
+
+nav{
+  width: 1000px;
+  height: 50px;
+  background: rgb(0, 225, 255);
+  padding-top: 15px;
+  color: rgb(22, 18, 18);
+  font-variant: small-caps;
+  font-size: 20px;
+  position: relative;
+}
+nav>div{
+  position: absolute;
+}
+nav>div>.menu_ngang{
+  margin: 0px;
+  padding: 0px;
+  width: 700px;
+  height: 30px;
+  
+  list-style: none;
+  text-align: center;
+  padding-left: 50px;
+  line-height: 30px;
+}
+
+.menu_ngang>li{
+  float: left; 
+  position: relative; /* lÃ†Â°u ÃƒÂ½ */
+}
+.menu_ngang>li>a{
+
+  text-decoration: none;
+  color: white;
+  font-variant: small-caps;
+  padding-left: 30px;
+
+}
+.menu_ngang>li>a:hover{
+  color: blue;
+
+}
+
+.menu_ngang>li:hover>.menu_con{
+  display: block;
+}
+
+
+/*menu con */
+.menu_con{
+  margin: 5px;
+  padding: 0px;
+  width: 106px;
+  height: 64px;
+  border: 1px solid rgb(0, 217, 255);
+  list-style: none;
+  position: absolute;
+  display: none;
+}
+.menu_con>li>a{
+  display: block;
+  text-decoration: none;
+  color: rgb(0, 217, 255);
+  font-variant: small-caps;
+  border-bottom: 1px dotted rgb(0, 255, 221);
+  padding-left: 30px;
+  line-height: 30px;
+  background-color: white;
+  background-image: url(anhass/icon_images.png) ;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: left center ;
+  background-position-x: -8px;
+
+}
+.menu_con>li>a:hover{
+  color: white;
+  background-image: url(anhass/Apple_logo_black.svg.png) ;
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: left center ;
+  background-position-x: 10px;
+  background-color: rgb(247, 252, 253);
+
+}
+
+
+
+
+
+
+.trai{
+position: absolute;
+   right:  70px;
+}
+article{
+    width: 700px;
+    height: 400px;
+    background: rgba(18, 158, 240, 0.89);
+    float: left;
+    border: 3px solid rgb(119, 207, 230);
+}
+
+
+aside{
+      width: 300px;
+      height: 400px;
+      background: white;
+      float: left;
+      
+
+}
+aside>.menu_dung{
+  margin: 0px;
+  padding: 0px;
+  width: 300px;
+  height: 400px;
+  border: 3px solid rgb(0, 247, 255);
+  list-style: none;
+}
+aside>.menu_dung>li>a{
+  display: block;
+  text-decoration: none;
+  color:black;
+  font-variant: small-caps;
+  border-bottom: 1px dotted rgb(12, 234, 241);
+  padding-left: 30px;
+  line-height: 30px;
+  background-image: url(anhass/icon_images.png) ;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: left center ;
+  background-position-x: -8px;
+
+}
+aside>.menu_dung>li>a:hover{
+  color:black;
+  background-image: url(anhass/Apple_logo_black.svg.png) ;
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: left center ;
+  background-position-x: 10px;
+  background-color: aqua;
+
+}
+
+
+footer{
+    width: 1000px;
+    height: 50px;
+    background:rgb(0, 247, 255);
+    clear: both;
+    text-align: center;
+    padding-top: 15px;
+}
+iframe{
+  position: absolute;
+}

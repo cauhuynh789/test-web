@@ -1,0 +1,252 @@
+*{
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body{
+      
+      background-color: aquamarine;
+   
+    
+}
+
+.dang_ky{
+  width: 1000px;
+  height: 50px;
+  background: aqua;
+  position: relative;
+  
+}
+.form-control{
+
+  width: 350px;
+  padding: 15px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 3px;
+  font-variant: small-caps;
+
+}
+.menu_con{
+  margin: 5px;
+  padding: 0px;
+  width: 200px;
+  height: 150px;
+  border: 1px solid rgb(0, 217, 255);
+  list-style: none;
+  position: absolute; /* lÆ°u Ã½ */
+  display: none;
+}
+
+
+
+.wrapper{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+   right: 200px;
+   
+
+
+}
+header{
+    
+    width: 1000px;
+    height: 250px;
+  
+
+}
+header>img{
+  width: 1000px;
+  height: 250px;
+}
+
+.b:hover{
+  background-color: rgb(11, 9, 87);
+  color: rgb(7, 183, 196);
+}
+article{
+    width: 1000px;
+    height: 2000px;
+    background: rgb(241, 238, 238);
+    float: right;
+    margin: 0 auto;
+}
+.hop{
+  width:  200px;
+  height: 270px;
+  border: 3px solid rgb(14, 184, 190);
+  border-radius:10px ;
+  float: left;
+  margin: 20px;
+  padding: 10px;
+  text-align: center; 
+  background: white;
+  position: relative;
+
+}
+.bieu_tuong{
+  width: 194px;
+  height: 45px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border-radius: 4px;
+}
+.bieu_tuong>img{
+
+    width:60px ;
+    height: 45px;
+
+
+}
+.hop:hover{
+
+  box-shadow: 0px 0px 20px rgb(0, 195, 255);
+
+}
+
+.gia{
+  padding-top: 10px;
+  font-weight: bold;
+  color: rgb(0, 183, 255);
+  
+
+}
+del{
+  color: grey;
+}
+a{
+  
+  font-variant:small-caps;
+  Color:blue;
+  text-decoration: none;
+ }
+ a:visited{
+   color: rgb(31, 37, 32);
+ }
+ a:active{
+   color: rgb(0, 255, 255);
+ }
+ a:hover{
+   color: rgb(0, 153, 255);
+   text-decoration: underline;
+ }
+
+
+img{
+  width: 150px;
+  height: 150px;
+}
+
+aside{
+      width: 1000px;
+      height: 30px;
+      text-align: center;
+      background:rgb(35, 218, 218);
+      float: right;
+      padding-top: 25px;
+      color: rgb(40, 190, 228);
+      font-variant: small-caps;
+      font-size: 18px;
+      
+      padding: 8px;
+
+}
+footer{
+    width: 1000px;
+    height: 50px;
+    background: rgb(133, 245, 230);
+    clear: both;
+    text-align: center;
+    padding-top: 15px;
+}
+/*-----------------------------------------------------------------------------------*/
+.menu_ngang{
+  margin: 0px;
+  padding: 0px;
+  width: 1000px;
+  height: 30px;
+  background-color: rgb(0, 247, 255) ;
+  list-style: none;
+  text-align: center;
+  padding-left: 50px;
+  line-height: 30px;
+}
+
+.menu_ngang>li{
+  float: left; 
+  position: relative; /* lÆ°u Ã½ */
+}
+.menu_ngang>li>a{
+
+  text-decoration: none;
+  color: rgb(17, 9, 9);
+  font-variant: small-caps;
+  padding-left: 30px;
+
+}
+.menu_ngang>li>a:hover{
+  color: blue;
+
+}
+
+.menu_ngang>li:hover>.menu_con{
+  display: block;
+}/* roi chuá»™t lÃªn li hien menu con
+
+
+/*menu con */
+.menu_con{
+  margin: 5px;
+  padding: 0px;
+  width: 200px;
+  height: 150px;
+  border: 1px solid rgb(0, 183, 255);
+  list-style: none;
+  position: absolute; /* lÆ°u Ã½ */
+  display: none;
+}
+.menu_con>li>a{
+  display: block;
+  text-decoration: none;
+  color: rgb(17, 14, 14);
+  font-variant: small-caps;
+  border-bottom: 1px dotted rgb(0, 195, 255);
+  padding-left: 30px;
+  line-height: 30px;
+  background-image: url(anhass/icon_images.png) ;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: left center ;
+  background-position-x: -5px;
+  background-color: aquamarine;
+
+}
+.menu_con>li>a:hover{
+  color: rgb(2, 2, 2);
+  background-image: url(anhass/Apple_logo_black.svg.png) ;
+  background-repeat: repeat;
+  background-size: 15px;
+  background-position: left center ;
+  background-position-x: 10px;
+  background-color: rgb(39, 228, 39);
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+.top_menu{
+  width: 300px;
+  height: 50px;
+  background-color: aqua;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0px 0px 10px white;
+  padding-top: 10px;
+ position: absolute;
+  
+}
+
+

@@ -1,0 +1,56 @@
+
+.hop{
+  width:  200px;
+  height: 250px;
+  border: 3px solid rgb(190, 14, 14);
+  border-radius:10px ;
+  float: left;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  
+  background: white;
+
+
+}
+.hop:hover{
+
+  box-shadow: 0px 0px 20px red;
+
+}
+
+.gia{
+  padding-top: 10px;
+  font-weight: bold;
+  color: red;
+  
+
+}
+del{
+  color: rgb(202, 185, 185);
+}
+a{
+  
+  font-variant:small-caps;
+  Color:blue;
+  text-decoration: none;
+ }
+ a:visited{
+   color: green;
+ }
+ a:active{
+   color: orange;
+ }
+ a:hover{
+   color: red;
+   text-decoration: underline;
+ }
+
+.hoplon{
+  width: 1350px;
+  height: 400px;
+}
+img{
+  width: 150px;
+  height: 150px;
+}

@@ -1,0 +1,300 @@
+*{
+  box-sizing: border-box;
+  text-decoration: none   ;
+}
+
+.wrapper{
+  width: 1500px;
+  height: 1900px;
+  background-color:rgb(16, 202, 235);
+  margin: 0px auto;
+  border-radius: 7px;
+}
+header{
+  width: 1500px;
+  position: relative;
+}
+.dndk{
+  width: 400px;
+  height: 60px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-bottom-left-radius: 80px;
+  font-size: 25px;
+  padding-top: 15px;
+  padding-left: 60px;
+}
+.khung{
+  position: relative;
+}
+.background{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.logo{
+  position: absolute;
+  width: 250px;
+}
+.tim_kiem{
+  position: absolute;
+  width: 400px;
+  height:40px;
+  bottom:15px;
+  left:530px;
+}
+.anh_timkiem{
+  position: absolute;
+  width: 61.5px;
+  bottom:14.79px;
+  left:928px;
+}
+nav{
+  background-color: white;
+  height: 50px;
+  padding-top: 15px;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 20px;
+ 
+}
+
+.mau:hover{
+    color:rgb(0, 153, 255);  
+}
+.mau{
+      color: grey;
+}
+article{
+  border-radius: 5px;
+  position: absolute;
+  left: 700px;
+  width: 700px;
+  height: 1000px;
+  background-color: white;
+  float:left;
+  margin-top: 100px;
+}
+aside{
+  width: 90%;
+  position: absolute;
+  border-radius: 5px;
+  left: 150px;
+  width: 550px;
+  height: 1000px;
+  background-color: white;
+  float:left;
+  padding-top: 30px;
+  padding-left: 30px;
+  margin-top: 100px;
+}
+aside>.khung>.anh{
+  position: absolute;
+  left:100px;
+  width: 300px;
+  
+  height: 350px;
+}
+
+.nd{
+  border: 1px solid rgb(224, 223, 223);
+  background-color: rgb(238, 237, 237);
+  position: absolute;
+  border-radius: 5px; ;
+  top:570px;
+  font-size: 21px;
+  font-weight: bold;
+  font-family: Arial;
+  width: 500px;
+  height: 280px;
+  right: 23px;
+}
+article>.gia{
+  position: absolute;
+  top:80px;
+  left:20px;
+ 
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+del{
+  font-size: 25px;
+  color: gray;
+  text-decoration: line-through;
+}
+iframe{
+  margin-left: 1px;
+  width: 620px;
+  height: 480px;
+}
+.menu2{
+  position: absolute;
+  top:200px;
+  width: 200px;
+  
+}
+.menu3{
+  position: absolute;
+  left: 130px;
+  top:200px;
+  width: 200px;
+  
+}
+.menu4{
+  position: absolute;
+  left: 260px;
+  top:200px;
+  width: 200px;
+  
+}
+.menu5{
+  position: absolute;
+  left: 390px;
+  top:200px;
+  width: 200px;
+  
+}
+.menu6{
+  position: absolute;
+  left: 520px;
+  top:200px;
+  width: 200px;
+  
+}
+.hop{
+  position:absolute;
+  bottom: 300px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgb(238, 234, 234);
+  left: 50px;
+  border: 1px solid rgb(212, 211, 211);
+  width: 600px;
+  height: 320px;
+}
+.hop1{
+  position:absolute;
+  bottom:180px;
+  left:150px;
+background-color: rgb(199, 35, 35);
+  border: 1px solid gray;
+  width: 400px;
+  height: 60px;
+  border-radius: 5px;
+}
+.chu{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.chu1{
+  color: white;
+  text-align: center;
+}
+.hop1:hover{
+  box-shadow: 0px 0px 10px rgb(0, 60, 255);
+}
+.hop2{
+  position:absolute;
+  bottom:100px;
+  left:40px;
+  background-color: rgb(0, 132, 240);
+  border: 1px solid gray;
+  width: 300px;
+  height: 60px;
+  border-radius: 5px;
+}
+.chu3{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.chu4{
+  color: white;
+  text-align: center;
+}
+.hop2:hover{
+  box-shadow: 0px 0px 10px rgb(180, 17, 17);
+}
+.hop3{
+  position:absolute;
+  bottom:100px;
+  left:355px;
+  background-color: rgb(0, 132, 240);
+  border: 1px solid gray;
+  width: 300px;
+  height: 60px;
+  border-radius: 5px;
+}
+.chu5{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.chu6{
+  color: white;
+  text-align: center;
+}
+.hop3:hover{
+  box-shadow: 0px 0px 10px rgb(180, 17, 17);
+}
+.chu7{
+  position: absolute;
+  bottom: 30px;
+  left:150px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+footer{
+  clear: both;
+  position: relative;
+  margin-top: 1130px;
+  margin-left: 100px;
+  width: 1300px;
+  height: 250px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: justify;
+}
+.doan1{
+position: absolute;
+top:20px;
+left:20px;
+}
+.doan2{
+  position: absolute;
+  left:270px;
+  top:20px;
+}
+.doan3{
+  position: absolute;
+  left:500px;
+  top:20px;
+}
+.doan4{
+  position: absolute;
+  right:280px;
+  top:20px;
+}
+.dam{
+  font-weight: bold;
+  color: rgb(0, 195, 255);
+}
+.chungnhan{
+  position: absolute;
+  top:30px;
+  width: 280px;
+  height: 110px;
+  right: 0px;
+}
